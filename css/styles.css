@@ -379,6 +379,23 @@ Featured Tours
 .tour-info {
   padding: 1.25rem 1.5rem;
 }
+/* Extra CSS */
+.tour-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tour-title p,
+.tour-title h4 {
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.tour-title p {
+  color: var(--clr-grey-7) git;
+}
+/* End of Extra CSS */
 
 .tour-footer {
   display: flex;
@@ -410,7 +427,6 @@ Featured Tours
 }
 
 @media screen and (min-width: 1170px) {
-
   .tour-card {
     flex: 0 0 calc(33.333% - 2rem);
   }
