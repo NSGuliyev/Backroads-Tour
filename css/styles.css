@@ -518,9 +518,9 @@ Gallery
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 2rem;
   transform: translate(-50%, -50%);
   color: var(--clr-white);
+  font-size: 2rem;
   opacity: 0;
   cursor: pointer;
   transition: var(--transition);
